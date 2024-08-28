@@ -1,0 +1,26 @@
+<html>
+<body>
+<form action="#" th:action="@{/computadores/salvar}" th:object="${computador}" method="post">
+<label>ID</label>
+<input type="number" th:field="*{id}" /><br /> 
+<label>COR</label>
+<input type="text" th:field="*{cor}"/><br />
+<label>Marca </label>
+<input type="text" th:field="*{marca}"/><br />
+<button type="submit"> Salvar </button>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
